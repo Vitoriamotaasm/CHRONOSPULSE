@@ -1,0 +1,55 @@
+.countdown-timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  .timer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .timer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .timer-label {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .timer-value {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .event-name {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 20px;
+  }
+  
+  .event-message {
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 10px;
+  }
